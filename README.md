@@ -1,34 +1,24 @@
-# 🔍 Web Vulnerability Scanner
 
-This Python-based tool scans a web page for **XSS (Cross-Site Scripting)** vulnerabilities by analyzing and testing forms.
+# AES-256 File Encryption Tool
 
-## 🚀 Features
+This tool allows you to encrypt and decrypt files using AES-256 encryption with a graphical user interface (GUI).
 
-- Detects XSS vulnerabilities via form injection
-- Uses `requests` and `BeautifulSoup` libraries
-- Follows form actions (GET/POST) and tests inputs
-- Simple terminal-based interface
+## Features
+- AES-256 encryption and decryption.
+- Password-based key generation.
+- Simple and user-friendly interface.
 
-## 📦 Requirements
+## Usage
+1. Run the Python script.
+2. Browse and select the file to encrypt or decrypt.
+3. Enter a strong password.
+4. Click 'Encrypt' or 'Decrypt'.
 
-- Python 3.x
-- `requests`, `beautifulsoup4`
-
-Install with:
-```bash
-pip install requests beautifulsoup4
+## Dependencies
+Install the required libraries with:
+```
+pip install -r requirements.txt
 ```
 
-## 🔧 Usage
-
-```bash
-python web_vuln_scanner.py
-```
-
-Then enter a URL like:
-```
-http://example.com
-```
-
-## 📄 License
-This project is licensed under the [MIT License](LICENSE).
+## License
+MIT License
